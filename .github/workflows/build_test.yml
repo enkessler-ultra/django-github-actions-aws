@@ -44,6 +44,7 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: GitHubAWSPipelineSampleApp
         environment_name: Githubawspipelinesampleapp-env
-        version_label: 12348
+        # The version has to change every time
+        version_label: 12349
         region: "us-east-2"
         deployment_package: deploy.zip
