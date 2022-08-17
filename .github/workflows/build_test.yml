@@ -45,6 +45,6 @@ jobs:
         application_name: GitHubAWSPipelineSampleApp
         environment_name: Githubawspipelinesampleapp-env
         # The version has to change every time.
-        version_label: ${ GITHUB_RUN_NUMBER }
+        version_label: ${{ GITHUB_RUN_NUMBER }}
         region: "us-east-1"
         deployment_package: deploy.zip
