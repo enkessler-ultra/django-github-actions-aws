@@ -46,5 +46,5 @@ jobs:
         environment_name: Githubawspipelinesampleapp-env
         # The version has to change every time
         version_label: 12349
-        region: "us-east-2"
+        region: "us-east-1"
         deployment_package: deploy.zip
